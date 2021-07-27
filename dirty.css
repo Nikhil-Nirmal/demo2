@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin:0px;
+    background-color: rgb(252, 214, 120);
+    background-image: url("pngegg.png") ,  url("minion.png");
+    background-repeat: no-repeat;
+    background-position: center right, center left;
+    background-size: 475px;
+    font-size: 20px;
+}
+.header{
+    color:black;
+    font-size:2rem;
+    text-align:center;
+    font-style: italic;
+    font-family:Lobster;
+    padding:1rem;
+   
+    margin:0px;
+}
+.in-textarea{
+    font-size: larger;
+    max-width: 80%;
+    display: block;
+    margin: 2rem auto;
+    height:6rem;
+    width: 30rem;
+    padding:1rem;
+}
+.out-textarea{
+    font-size: larger;
+    max-width: 80%;
+    display: block;
+    margin: 2rem auto;
+    height:6rem;
+    width:30rem;
+    padding:1rem;
+    margin-top: 30px;
+    margin-top:0;
+}
+p{
+    margin-left:30%;
+}
+#btn-translate{
+    display:inline;
+    padding:0.5rem;
+    font-size:1rem;
+    max-width:80%;
+}
+
+.btn-container{
+   text-align:center;
+   
+}
+footer{
+    text-align:center;
+    padding:1rem;
+    font-style: italic;
+}
+.footer-content{
+    max-width: 80%;
+    text-align: center;
+    width:35rem;
+    margin:auto;
+}
+
+footer p {
+    font-size: larger;
+}
